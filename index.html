@@ -3,52 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mixam Pet Adoption</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; background:#f7f7f7; color:#333; }
-    .container { max-width: 800px; margin: 40px auto; background:#fff; padding: 30px; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.08);}
-    h1 { margin-top:0; }
-    .btn {
-      display:inline-block; margin-top:15px; padding:12px 20px;
-      background:#4CAF50; color:#fff; text-decoration:none; border-radius:6px;
-    }
-    .section { margin-top:25px; }
-    ul { padding-left:18px; }
-  </style>
+  <title>Mixam's Pets - Adoption & Rehoming</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
-  <div class="container">
-    <h1>🐾 Mixam Pet Adoption</h1>
-    <p>Find your perfect companion and give a loving pet a forever home ❤️</p>
-
-    <div class="section">
-      <h3>About Us</h3>
-      <p>We help pets find safe, loving homes through our adoption and rehoming program. All pets are cared for and prepared before joining their new families.</p>
-    </div>
-
-    <div class="section">
-      <h3>What’s Included</h3>
-      <ul>
-        <li>Up-to-date vaccinations & deworming</li>
-        <li>Veterinary health check</li>
-        <li>Health records provided</li>
-        <li>Starter essentials</li>
+  <header>
+    <nav>
+      <div class="logo">Mixam's Pets 🐾</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="puppies.html">Puppies</a></li>
+        <li><a href="kittens.html">Kittens</a></li>
+        <li><a href="reservation.html">Reserve</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
-    </div>
+    </nav>
+  </header>
 
-    <div class="section">
-      <h3>Adopt Now</h3>
-      <p>Start your application or reserve your pet using the link below:</p>
-      <a class="btn" href="YOUR_JOTFORM_LINK_HERE" target="_blank">
-        Apply / Reserve
-      </a>
-    </div>
+  <section class="hero">
+    <h1>Find Your Forever Friend</h1>
+    <p>Responsible pet adoption and rehoming services across the country.</p>
+    <a href="puppies.html" class="btn btn-primary">View Available Pets</a>
+    <a href="reservation.html" class="btn btn-secondary">Reserve Now</a>
+  </section>
 
-    <div class="section">
-      <h3>Contact</h3>
-      <p>Email: mixam.rehoming@hotmail.com</p>
-      <p>Phone: (323) 510-6145</p>
+  <section>
+    <h2>Why Adopt With Us?</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-content">
+          <h3>❤️ Vaccinated & Healthy</h3>
+          <p>All pets come fully vaccinated, dewormed, and health-checked.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h3>🐾 Vet Approved</h3>
+          <p>Thorough veterinary examination before adoption.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h3>📋 Full Support</h3>
+          <p>Adoption guidance, records, and starter kit provided.</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mixam's Pet Adoption & Rehoming Services • mixampet.com</p>
+    <p>📞 Call/Text: (323) 510-6145 | 📩 mixam.rehoming@hotmail.com</p>
+  </footer>
 </body>
 </html>
